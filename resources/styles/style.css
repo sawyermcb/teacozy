@@ -1,18 +1,26 @@
 header {
-  display: flex;
   background-color: black;
-  height: 69px;
+  display: flex;
+  align-items: center;
 }
-.box1 {
+.logo {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+}
+.logo img {
   height: 50px;
 
-  display: flex;
+}
+nav .link {
+  display: inline-block;
+
   flex: 1;
 }
-.links {
-  display: flex;
-  flex: 1;
+nav span {
+
 }
-.topimage {
-  margin: auto 10px;
+.link {
+  align-items: center;
 }
