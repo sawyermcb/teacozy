@@ -51,23 +51,16 @@ a:visited {
   width: 100%;
   background-color: black;
 }
-.store {
 
-}
 .texts {
   color: white;
 }
-.picture {
 
-}
 .picture img {
   height: 200px;
   width: auto;
 }
-.storeitems {
 
-
-}
 .items {
   display: flex;
   flex-wrap: wrap;
