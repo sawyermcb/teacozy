@@ -108,3 +108,10 @@ margin: 15px 15px 15px 15px;
   top: 50px;
   z-index: 1;
 }
+footer {
+  position: relative;
+  top: 75px;
+}
+#copyright {
+  text-align: left;
+}
