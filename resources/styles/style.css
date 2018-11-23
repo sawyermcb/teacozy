@@ -54,11 +54,14 @@ a:visited {
 
 .texts {
   color: white;
+  position: relative;
+  top: 20px;
 }
 
 .picture img {
   height: 200px;
-  width: auto;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 .items {
@@ -66,7 +69,6 @@ a:visited {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
 .picture {
   display: flex;
@@ -77,4 +79,32 @@ a:visited {
 }
 .items span {
   color: white;
+}
+.mastersquare {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+margin: 0px 70px;
+position: relative;
+top: 70px;
+}
+.flexsquare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px 50px 50px;
+  flex: 1;
+  opacity: 1;
+}
+.square1 span {
+margin: 15px 15px 15px 15px;
+}
+.mastersquare h2 {
+  position: relative;
+  top: 50px;
+  z-index: 1;
 }
